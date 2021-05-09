@@ -2,108 +2,256 @@
   "Incarnam": [
     {
       "-3,-6": [
-        {
-          "to": {
-            "coo": "-3,-5",
-            "mapType": "Incarnam"
-          },
-          "x": 50,
-          "y": 100
-        },
-        {
-          "to": {
-            "coo": "-2,-6",
-            "mapType": "Incarnam"
-          },
-          "x": 100,
-          "y": 50
-        }
-      ]
-    },
-    {
-      "-3,-5": [
-        {
-          "to": {
-            "coo": "-2,-5",
-            "mapType": "Incarnam"
-          },
-          "x": 100,
-          "y": 50
-        },
-        {
-          "to": {
-            "coo": "-3,-6",
-            "mapType": "Incarnam"
-          },
-          "x": 50,
-          "y": 0
-        }
-      ]
-    },
-    {
-      "-2,-5": [
-        {
-          "to": {
-            "coo": "-3,-5",
-            "mapType": "Incarnam"
-          },
-          "x": 0,
-          "y": 50
-        },
-        {
-          "to": {
-            "coo": "-2,-6",
-            "mapType": "Incarnam"
-          },
-          "x": 50,
-          "y": 0
-        },
-        {
-          "to": {
-            "coo": "-1,-5",
-            "mapType": "Incarnam"
-          },
-          "x": 100,
-          "y": 50
-        },
-        {
-          "to": {
-            "coo": "-2,-4",
-            "mapType": "Incarnam"
-          },
-          "x": 50,
-          "y": 100
-        }
+        { "to": "-2,-6", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "-3,-5", "mapName": "Incarnam", "x": "50", "y": "100" }
       ]
     },
     {
       "-2,-6": [
-        {
-          "to": {
-            "coo": "-3,-6",
-            "mapType": "Incarnam"
-          },
-          "x": 0,
-          "y": 50
-        },
-        {
-          "to": {
-            "coo": "-2,-5",
-            "mapType": "Incarnam"
-          },
-          "x": 50,
-          "y": 100
-        },
-        {
-          "to": {
-            "coo": "-1,-6",
-            "mapType": "Incarnam"
-          },
-          "x": 100,
-          "y": 50
-        }
+        { "to": "-3,-6", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "-1,-6", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "-2,-5", "mapName": "Incarnam", "x": "50", "y": "100" }
       ]
-    }
+    },
+    {
+      "-3,-5": [
+        { "to": "-3,-6", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "-2,-5", "mapName": "Incarnam", "x": "100", "y": "50" }
+      ]
+    },
+    {
+      "-1,-6": [
+        { "to": "-2,-6", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "-1,-5", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "-2,-5": [
+        { "to": "-1,-5", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "-3,-5", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "-2,-4", "mapName": "Incarnam", "x": "50", "y": "100" },
+        { "to": "-2,-6", "mapName": "Incarnam", "x": "50", "y": "0" }
+      ]
+    },
+    {
+      "-1,-5": [
+        { "to": "-2,-5", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "0,-5", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "-1,-4", "mapName": "Incarnam", "x": "50", "y": "100" },
+        { "to": "-1,-6", "mapName": "Incarnam", "x": "50", "y": "0" }
+      ]
+    },
+    {
+      "-2,-4": [
+        { "to": "-2,-5", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "-1,-4", "mapName": "Incarnam", "x": "100", "y": "50" }
+      ]
+    },
+    {
+      "0,-5": [
+        { "to": "-1,-5", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "0,-4", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "-1,-4": [
+        { "to": "-1,-5", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "0,-4", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "-2,-4", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "-1,-3", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "0,-4": [
+        { "to": "-1,-4", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "1,-4", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "0,-3", "mapName": "Incarnam", "x": "50", "y": "100" },
+        { "to": "0,-5", "mapName": "Incarnam", "x": "50", "y": "0" }
+      ]
+    },
+    {
+      "-1,-3": [
+        { "to": "-1,-4", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "0,-3", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "-2,-3", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "-1,-2", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "1,-4": [
+        { "to": "0,-4", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "2,-4", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "1,-3", "mapName": "Incarnam", "x": "50", "y": "100" },
+        { "to": "1,-5", "mapName": "Incarnam", "x": "50", "y": "0" }
+      ]
+    },
+    {
+      "0,-3": [
+        { "to": "0,-4", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "-1,-3", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "1,-3", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "0,-2", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "2,-4": [
+        { "to": "1,-4", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "3,-4", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "2,-3", "mapName": "Incarnam", "x": "50", "y": "100" },
+        { "to": "2,-5", "mapName": "Incarnam", "x": "50", "y": "0" }
+      ]
+    },
+    {
+      "1,-3": [
+        { "to": "1,-4", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "0,-3", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "2,-3", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "1,-2", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "1,-5": [{ "to": "1,-4", "mapName": "Incarnam", "x": "50", "y": "100" }]
+    },
+    {
+      "3,-4": [
+        { "to": "2,-4", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "4,-4", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "3,-3", "mapName": "Incarnam", "x": "50", "y": "100" },
+        { "to": "3,-5", "mapName": "Incarnam", "x": "50", "y": "0" }
+      ]
+    },
+    {
+      "2,-3": [
+        { "to": "2,-4", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "1,-3", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "3,-3", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "2,-2", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "2,-5": [{ "to": "2,-4", "mapName": "Incarnam", "x": "50", "y": "100" }]
+    },
+    { "4,-4": [{ "to": "3,-4", "mapName": "Incarnam", "x": "0", "y": "50" }] },
+    {
+      "3,-3": [
+        { "to": "3,-4", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "2,-3", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "4,-3", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "3,-2", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "3,-5": [{ "to": "3,-4", "mapName": "Incarnam", "x": "50", "y": "100" }]
+    },
+    {
+      "-2,-3": [{ "to": "-1,-3", "mapName": "Incarnam", "x": "100", "y": "50" }]
+    },
+    {
+      "-1,-2": [
+        { "to": "-1,-3", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "0,-2", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "-2,-2", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "-1,-1", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "0,-2": [
+        { "to": "0,-3", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "-1,-2", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "1,-2", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "0,-1", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "1,-2": [
+        { "to": "1,-3", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "0,-2", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "2,-2", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "1,-1", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "2,-2": [
+        { "to": "2,-3", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "1,-2", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "3,-2", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "2,-1", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    { "4,-3": [{ "to": "3,-3", "mapName": "Incarnam", "x": "0", "y": "50" }] },
+    {
+      "3,-2": [
+        { "to": "3,-3", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "2,-2", "mapName": "Incarnam", "x": "0", "y": "50" }
+      ]
+    },
+    {
+      "-2,-2": [{ "to": "-1,-2", "mapName": "Incarnam", "x": "100", "y": "50" }]
+    },
+    {
+      "-1,-1": [
+        { "to": "-1,-2", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "0,-1", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "-2,-1", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "-1,0", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "0,-1": [
+        { "to": "0,-2", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "-1,-1", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "1,-1", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "0,0", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "1,-1": [
+        { "to": "1,-2", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "0,-1", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "2,-1", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "1,0", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "2,-1": [
+        { "to": "2,-2", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "1,-1", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "3,-1", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "2,0", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "-2,-1": [{ "to": "-1,-1", "mapName": "Incarnam", "x": "100", "y": "50" }]
+    },
+    {
+      "-1,0": [
+        { "to": "-1,-1", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "0,0", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "-2,0", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "-1,1", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "0,0": [
+        { "to": "0,-1", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "-1,0", "mapName": "Incarnam", "x": "0", "y": "50" },
+        { "to": "1,0", "mapName": "Incarnam", "x": "100", "y": "50" },
+        { "to": "0,1", "mapName": "Incarnam", "x": "50", "y": "100" }
+      ]
+    },
+    {
+      "1,0": [
+        { "to": "1,-1", "mapName": "Incarnam", "x": "50", "y": "0" },
+        { "to": "0,0", "mapName": "Incarnam", "x": "0", "y": "50" }
+      ]
+    },
+    { "3,-1": [{ "to": "2,-1", "mapName": "Incarnam", "x": "0", "y": "50" }] },
+    { "2,0": [{ "to": "2,-1", "mapName": "Incarnam", "x": "50", "y": "0" }] },
+    {
+      "-2,0": [{ "to": "-1,0", "mapName": "Incarnam", "x": "100", "y": "50" }]
+    },
+    { "-1,1": [{ "to": "-1,0", "mapName": "Incarnam", "x": "50", "y": "0" }] },
+    { "0,1": [{ "to": "0,0", "mapName": "Incarnam", "x": "50", "y": "0" }] }
   ],
-  "version": 1
+  "Amakna": []
 }
