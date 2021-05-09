@@ -1,0 +1,109 @@
+﻿{
+  "Incarnam": [
+    {
+      "-3,-6": [
+        {
+          "to": {
+            "coo": "-3,-5",
+            "mapType": "Incarnam"
+          },
+          "x": 50,
+          "y": 100
+        },
+        {
+          "to": {
+            "coo": "-2,-6",
+            "mapType": "Incarnam"
+          },
+          "x": 100,
+          "y": 50
+        }
+      ]
+    },
+    {
+      "-3,-5": [
+        {
+          "to": {
+            "coo": "-2,-5",
+            "mapType": "Incarnam"
+          },
+          "x": 100,
+          "y": 50
+        },
+        {
+          "to": {
+            "coo": "-3,-6",
+            "mapType": "Incarnam"
+          },
+          "x": 50,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "-2,-5": [
+        {
+          "to": {
+            "coo": "-3,-5",
+            "mapType": "Incarnam"
+          },
+          "x": 0,
+          "y": 50
+        },
+        {
+          "to": {
+            "coo": "-2,-6",
+            "mapType": "Incarnam"
+          },
+          "x": 50,
+          "y": 0
+        },
+        {
+          "to": {
+            "coo": "-1,-5",
+            "mapType": "Incarnam"
+          },
+          "x": 100,
+          "y": 50
+        },
+        {
+          "to": {
+            "coo": "-2,-4",
+            "mapType": "Incarnam"
+          },
+          "x": 50,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "-2,-6": [
+        {
+          "to": {
+            "coo": "-3,-6",
+            "mapType": "Incarnam"
+          },
+          "x": 0,
+          "y": 50
+        },
+        {
+          "to": {
+            "coo": "-2,-5",
+            "mapType": "Incarnam"
+          },
+          "x": 50,
+          "y": 100
+        },
+        {
+          "to": {
+            "coo": "-1,-6",
+            "mapType": "Incarnam"
+          },
+          "x": 100,
+          "y": 50
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
